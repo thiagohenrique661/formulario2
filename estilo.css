@@ -1,0 +1,60 @@
+body{
+	font-family: arial, helvetica, "trebuchet MS", sans-serif;
+	background: #DAFFF5;
+}
+
+h2{
+	width: 300px;
+	background: #10425C;
+	color: #ffff;
+	text-align: center;
+
+}
+
+fieldset{
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid #35BAE8;
+	background: #DAFFF5;
+	
+
+}
+
+legend{
+	font-weight: bold;
+}
+
+label{
+	text-align: left;
+	cursor: pointer;
+	display: block;
+	padding: 5px;
+	margin:0;
+
+	
+}
+
+input {
+	margin:0;
+	width: 20em;
+}
+
+
+textarea{
+	width: 20%;
+	height: 10em;
+}
+
+input.radio, input.checkbox, input.submit{
+	width: auto;
+	
+}
+
+input.submit{
+	background: #10425C;
+	height: 2em;
+	color: #ffff;
+	width: 200px;
+	margin-left: 20px;
+	font-weight: bold;
+}
